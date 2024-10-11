@@ -1,10 +1,4 @@
-/**
- * Codia React Native App
- * https://codia.ai
- * https://github.com/facebook/react-native
- *
- * @format
- */
+
 import React from 'react';
 import {
   View,
@@ -13,9 +7,9 @@ import {
   SafeAreaView,
   ScrollView,
 } from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
 
-export default function App(): React.JSX.Element {
+
+export default function ChatScreen(): React.JSX.Element {
   return (
     <SafeAreaView>
       <ScrollView
@@ -43,7 +37,7 @@ export default function App(): React.JSX.Element {
               top: 0,
               left: 0,
             }}
-            source={require('./assets/images/fdbd408a2340926a8ab64d0badc046dd4d00c9d0.png')}
+            source={'./assets/ChatScreen/imagesfdbd408a2340926a8ab64d0badc046dd4d00c9d0.png'}
             resizeMode='cover'
           />
           <View
@@ -76,7 +70,7 @@ export default function App(): React.JSX.Element {
                 left: '61.45%',
                 zIndex: 34,
               }}
-              source={require('./assets/images/034c25ac-bfe6-4ec5-8fad-afaeff386b40.png')}
+              source={'./assets/ChatScreen/images034c25ac-bfe6-4ec5-8fad-afaeff386b40.png'}
             />
             <ImageBackground
               style={{
@@ -87,13 +81,13 @@ export default function App(): React.JSX.Element {
                 left: '82.55%',
                 zIndex: 35,
               }}
-              source={require('./assets/images/0c37e216-7c73-4c6b-9656-e456630f767f.png')}
+              source={'./assets/ChatScreen/images0c37e216-7c73-4c6b-9656-e456630f767f.png'}
             />
             <View
               style={{
                 width: '39.63%',
                 height: '100%',
-                fontSize: 0,
+        
                 position: 'absolute',
                 top: '0%',
                 left: 0,
@@ -150,7 +144,7 @@ export default function App(): React.JSX.Element {
                 left: '66.55%',
                 zIndex: 39,
               }}
-              source={require('./assets/images/d5f83a1c-7022-4ee9-95f1-e3650412c75f.png')}
+              source={'./assets/ChatScreen/imagesd5f83a1c-7022-4ee9-95f1-e3650412c75f.png'}
             />
             <ImageBackground
               style={{
@@ -161,7 +155,7 @@ export default function App(): React.JSX.Element {
                 left: '87.64%',
                 zIndex: 40,
               }}
-              source={require('./assets/images/d6a26b87-0c49-4f2c-8610-52b3cfe22c3b.png')}
+              source={'./assets/ChatScreen/imagesd6a26b87-0c49-4f2c-8610-52b3cfe22c3b.png'}
             />
           </View>
           <ImageBackground
@@ -173,7 +167,7 @@ export default function App(): React.JSX.Element {
               left: 31.167,
               zIndex: 41,
             }}
-            source={require('./assets/images/865ce994-59a3-4c0b-806a-16351878561b.png')}
+            source={'./assets/ChatScreen/images865ce994-59a3-4c0b-806a-16351878561b.png'}
             resizeMode='cover'
           />
           <View
@@ -200,7 +194,7 @@ export default function App(): React.JSX.Element {
                 style={{
                   width: 222.86,
                   height: 88.968,
-                  fontSize: 0,
+               
                   position: 'relative',
                   zIndex: 23,
                   marginTop: 0,
@@ -243,7 +237,7 @@ export default function App(): React.JSX.Element {
                     left: 0,
                     zIndex: 24,
                   }}
-                  source={require('./assets/images/0de08cd0-ee1c-4ed3-94f2-ca59378a0e4c.png')}
+                  source={'./assets/ChatScreen/images0de08cd0-ee1c-4ed3-94f2-ca59378a0e4c.png'}
                 />
               </View>
               <Text
@@ -270,7 +264,7 @@ export default function App(): React.JSX.Element {
                 style={{
                   width: 155.914,
                   height: 40.52,
-                  fontSize: 0,
+                 
                   position: 'relative',
                   zIndex: 26,
                   marginTop: 119.893,
@@ -309,7 +303,7 @@ export default function App(): React.JSX.Element {
                     left: 0,
                     zIndex: 27,
                   }}
-                  source={require('./assets/images/121e1f3d-6ade-4c7f-adf2-c0a3e9c9229e.png')}
+                  source={'./assets/ChatScreen/images121e1f3d-6ade-4c7f-adf2-c0a3e9c9229e.png'}
                 />
               </View>
               <Text
@@ -347,7 +341,7 @@ export default function App(): React.JSX.Element {
                 style={{
                   width: 188.506,
                   height: 52.852,
-                  fontSize: 0,
+                  
                   position: 'relative',
                   zIndex: 29,
                   marginTop: 0,
@@ -395,7 +389,7 @@ export default function App(): React.JSX.Element {
                       left: 0,
                       zIndex: 31,
                     }}
-                    source={require('./assets/images/734b4884-daaa-45ca-8360-08c020eaf1b4.png')}
+                    source={'./assets/ChatScreen/images734b4884-daaa-45ca-8360-08c020eaf1b4.png'}
                   />
                 </View>
               </View>
@@ -430,7 +424,7 @@ export default function App(): React.JSX.Element {
               left: 102.661,
               zIndex: 3,
             }}
-            source={require('./assets/images/e57fbd6d-b006-40ab-9749-0a7d5a2b8b0d.png')}
+            source={'./assets/ChatScreen/imagese57fbd6d-b006-40ab-9749-0a7d5a2b8b0d.png'}
             resizeMode='cover'
           />
           <ImageBackground
@@ -442,7 +436,7 @@ export default function App(): React.JSX.Element {
               left: 173.955,
               zIndex: 2,
             }}
-            source={require('./assets/images/5733e1ee-66cd-4b9f-ac7f-d5e9fcfe6a94.png')}
+            source={'./assets/ChatScreen/images5733e1ee-66cd-4b9f-ac7f-d5e9fcfe6a94.png'}
             resizeMode='cover'
           />
           <ImageBackground
@@ -454,7 +448,7 @@ export default function App(): React.JSX.Element {
               left: 151.847,
               zIndex: 1,
             }}
-            source={require('./assets/images/d5fe164c-d79b-451f-a7b3-a7b8e6311836.png')}
+            source={'./assets/ChatScreen/imagesd5fe164c-d79b-451f-a7b3-a7b8e6311836.png'}
             resizeMode='cover'
           />
           <View
@@ -519,7 +513,7 @@ export default function App(): React.JSX.Element {
                     position: 'relative',
                     zIndex: 13,
                   }}
-                  source={require('./assets/images/a851972c-638f-4743-89e4-b4a6bea909df.png')}
+                  source={'./assets/ChatScreen/imagesa851972c-638f-4743-89e4-b4a6bea909df.png'}
                 />
               </View>
             </View>
@@ -602,7 +596,7 @@ export default function App(): React.JSX.Element {
                       position: 'relative',
                       zIndex: 18,
                     }}
-                    source={require('./assets/images/f3d19fe4-c331-4fa0-a943-ba76730f9ecb.png')}
+                    source={'./assets/ChatScreen/imagesf3d19fe4-c331-4fa0-a943-ba76730f9ecb.png'}
                     resizeMode='cover'
                   />
                 </View>
@@ -679,7 +673,7 @@ export default function App(): React.JSX.Element {
                       left: '-16.48%',
                       zIndex: 50,
                     }}
-                    source={require('./assets/images/7c1080bb-207e-4646-a3b7-ebc30602ca17.png')}
+                    source={'./assets/ChatScreen/images7c1080bb-207e-4646-a3b7-ebc30602ca17.png'}
                   />
                 </View>
                 <View
@@ -715,7 +709,7 @@ export default function App(): React.JSX.Element {
                         marginBottom: 0,
                         marginLeft: 0,
                       }}
-                      source={require('./assets/images/2b3550d5-0792-441b-9089-ce3eca699486.png')}
+                      source={'./assets/ChatScreen/images2b3550d5-0792-441b-9089-ce3eca699486.png'}
                     />
                     <ImageBackground
                       style={{
@@ -728,7 +722,7 @@ export default function App(): React.JSX.Element {
                         marginBottom: 0,
                         marginLeft: 20.961,
                       }}
-                      source={require('./assets/images/a1c47ecd-12dd-4218-b09c-fce2fbeae538.png')}
+                      source={'./assets/ChatScreen/imagesa1c47ecd-12dd-4218-b09c-fce2fbeae538.png'}
                     />
                   </View>
                 </View>
@@ -756,7 +750,7 @@ export default function App(): React.JSX.Element {
                     position: 'relative',
                     zIndex: 46,
                   }}
-                  source={require('./assets/images/c1798c3d-7413-4a4b-acc6-616d175d9955.png')}
+                  source={'./assets/ChatScreen/imagesc1798c3d-7413-4a4b-acc6-616d175d9955.png'}
                   resizeMode='cover'
                 />
                 <ImageBackground
@@ -767,7 +761,7 @@ export default function App(): React.JSX.Element {
                     position: 'relative',
                     zIndex: 47,
                   }}
-                  source={require('./assets/images/3226e116-d840-4a6d-8294-459e418d7ad2.png')}
+                  source={'./assets/ChatScreen/images3226e116-d840-4a6d-8294-459e418d7ad2.png'}
                   resizeMode='cover'
                 />
               </View>
@@ -794,7 +788,7 @@ export default function App(): React.JSX.Element {
                     position: 'relative',
                     zIndex: 56,
                   }}
-                  source={require('./assets/images/97ace4c0-8417-4807-a932-a8056ff12883.png')}
+                  source={'./assets/ChatScreen/images97ace4c0-8417-4807-a932-a8056ff12883.png'}
                 />
                 <ImageBackground
                   style={{
@@ -804,7 +798,7 @@ export default function App(): React.JSX.Element {
                     position: 'relative',
                     zIndex: 57,
                   }}
-                  source={require('./assets/images/7afda189-b059-4349-9833-774ed03a6e7f.png')}
+                  source={'./assets/ChatScreen/images7afda189-b059-4349-9833-774ed03a6e7f.png'}
                   resizeMode='cover'
                 />
               </View>
@@ -859,7 +853,7 @@ export default function App(): React.JSX.Element {
                   marginBottom: 0,
                   marginLeft: 0,
                 }}
-                source={require('./assets/images/76f16a44-4c1f-4c90-90a4-11bcf3ea406c.png')}
+                source={'./assets/ChatScreen/images76f16a44-4c1f-4c90-90a4-11bcf3ea406c.png'}
               />
               <ImageBackground
                 style={{
@@ -872,7 +866,7 @@ export default function App(): React.JSX.Element {
                   marginBottom: 0,
                   marginLeft: 23.945,
                 }}
-                source={require('./assets/images/28a32be2-2da9-4922-8dcf-b85ba0269d32.png')}
+                source={'./assets/ChatScreen/images28a32be2-2da9-4922-8dcf-b85ba0269d32.png'}
               />
             </View>
           </View>

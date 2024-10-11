@@ -1,7 +1,7 @@
 
 import React from 'react';
-import myimage from './assets/signUp/images/dropdownArrow.png';
-
+import myimage from './assets/SignUp/images/dropdownArrow.png';
+import { useNavigation } from '@react-navigation/native'; 
 import {
   Text,
   SafeAreaView,
@@ -9,6 +9,7 @@ import {
   useColorScheme,
   ImageBackground,
   View,
+  Button,
 } from 'react-native';
 
 import {
@@ -21,6 +22,7 @@ import {
 
 
 function SignUp(): React.JSX.Element {
+  const navigation = useNavigation();
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
@@ -522,6 +524,10 @@ function SignUp(): React.JSX.Element {
                     >
                       Next
                     </Text>
+                    <Button
+        title="Go to Chat Screen"
+        onPress={() => navigation.navigate('ChatScreen')}
+      />
                   </View>
                 </View>
                 <View

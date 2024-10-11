@@ -1,4 +1,4 @@
-package com.imspecial
+package com.fyp
 
 import android.app.Application
 import com.facebook.react.PackageList

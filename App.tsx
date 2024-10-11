@@ -1,6 +1,9 @@
-
 import React from 'react';
+
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 import SignUp from './SignUp';
+import ChatScreen from './ChatScreen';
 import {
   Text,
   SafeAreaView,
@@ -10,28 +13,24 @@ import {
   View,
 } from 'react-native';
 
-import {
-  Colors,
 
-} from 'react-native/Libraries/NewAppScreen';
-
-
-
-
+const Stack = createStackNavigator();
 
 function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+
 
   return (
-  <SignUp />
-  
-);
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="SignUp">
+        <Stack.Screen name="SignUp" component={SignUp} />
+        <Stack.Screen name="ChatScreen" component={ChatScreen} />
+        {/* Add more screens here */
+        
+        }
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 }
-
-
 
 export default App;

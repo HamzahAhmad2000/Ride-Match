@@ -6,6 +6,7 @@
  * @format
  */
 import React from 'react';
+import { useNavigation } from '@react-navigation/native'; 
 import {
   View,
   Text,
@@ -13,9 +14,9 @@ import {
   SafeAreaView,
   ScrollView,
 } from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
 
-export default function App(): React.JSX.Element {
+
+export default function CreateTrip1(): React.JSX.Element {
   return (
     <SafeAreaView>
       <ScrollView
@@ -58,7 +59,7 @@ export default function App(): React.JSX.Element {
                 marginBottom: 0,
                 marginLeft: -29.148,
               }}
-              source={require('./assets/images/18bd789a-092e-409e-a607-0ed646e05195.png')}
+              source={'./assets/CreateTrip1/images/18bd789a-092e-409e-a607-0ed646e05195.png'}
               resizeMode='cover'
             />
             <ImageBackground
@@ -70,7 +71,7 @@ export default function App(): React.JSX.Element {
                 left: 0,
                 zIndex: 2,
               }}
-              source={require('./assets/images/fdbd408a2340926a8ab64d0badc046dd4d00c9d0.png')}
+              source={'./assets/CreateTrip1/images/fdbd408a2340926a8ab64d0badc046dd4d00c9d0.png'}
               resizeMode='cover'
             />
             <View
@@ -165,7 +166,7 @@ export default function App(): React.JSX.Element {
                         marginBottom: 0,
                         marginLeft: 2.751,
                       }}
-                      source={require('./assets/images/4ece9ec0-6af5-4bed-b534-5b2b33c399d1.png')}
+                      source={'./assets/CreateTrip1/images/4ece9ec0-6af5-4bed-b534-5b2b33c399d1.png'}
                     />
                   </View>
                 </View>
@@ -458,7 +459,7 @@ export default function App(): React.JSX.Element {
                         position: 'relative',
                         zIndex: 27,
                       }}
-                      source={require('./assets/images/69e30559-7fe5-4b5d-bd1e-ca0461e2d557.png')}
+                      source={'./assets/CreateTrip1/images/69e30559-7fe5-4b5d-bd1e-ca0461e2d557.png'}
                       resizeMode='cover'
                     />
                     <View
@@ -544,7 +545,7 @@ export default function App(): React.JSX.Element {
                             position: 'relative',
                             zIndex: 33,
                           }}
-                          source={require('./assets/images/583320b9-a0b8-4092-876c-076a9c4f77b8.png')}
+                          source={'./assets/CreateTrip1/images/583320b9-a0b8-4092-876c-076a9c4f77b8.png'}
                           resizeMode='cover'
                         />
                       </View>
@@ -619,7 +620,7 @@ export default function App(): React.JSX.Element {
                             position: 'relative',
                             zIndex: 38,
                           }}
-                          source={require('./assets/images/d3ca80a4-f2cb-4ec1-ae42-ea8f463d477b.png')}
+                          source={'./assets/CreateTrip1/images/d3ca80a4-f2cb-4ec1-ae42-ea8f463d477b.png'}
                           resizeMode='cover'
                         />
                       </View>
@@ -729,7 +730,7 @@ export default function App(): React.JSX.Element {
                           position: 'relative',
                           zIndex: 45,
                         }}
-                        source={require('./assets/images/ac73fbba-0f65-4d8d-addc-4f2ba2e2ca29.png')}
+                        source={'./assets/CreateTrip1/images/ac73fbba-0f65-4d8d-addc-4f2ba2e2ca29.png'}
                         resizeMode='cover'
                       />
                       <Text
@@ -954,7 +955,7 @@ export default function App(): React.JSX.Element {
                             position: 'relative',
                             zIndex: 57,
                           }}
-                          source={require('./assets/images/cd032d26-14b9-459e-9883-d7f624d24db4.png')}
+                          source={'./assets/CreateTrip1/images/cd032d26-14b9-459e-9883-d7f624d24db4.png'}
                           resizeMode='cover'
                         />
                         <Text
@@ -1050,7 +1051,7 @@ export default function App(): React.JSX.Element {
                                 left: 0,
                                 zIndex: 64,
                               }}
-                              source={require('./assets/images/2a93cb42-c6a1-4ed5-820e-c462d4954164.png')}
+                              source={'./assets/CreateTrip1/images/2a93cb42-c6a1-4ed5-820e-c462d4954164.png'}
                               resizeMode='cover'
                             />
                             <View
@@ -1074,7 +1075,7 @@ export default function App(): React.JSX.Element {
                                   marginBottom: 0,
                                   marginLeft: 1.875,
                                 }}
-                                source={require('./assets/images/7bb6f798-9bc0-4bc1-a97b-8617824b9be0.png')}
+                                source={'./assets/CreateTrip1/images/7bb6f798-9bc0-4bc1-a97b-8617824b9be0.png'}
                               />
                             </View>
                           </View>
@@ -1158,7 +1159,7 @@ export default function App(): React.JSX.Element {
                             marginBottom: 0,
                             marginLeft: 6.669,
                           }}
-                          source={require('./assets/images/606036b8-60a9-4bb6-a317-366682c50ed6.png')}
+                          source={'./assets/CreateTrip1/images/606036b8-60a9-4bb6-a317-366682c50ed6.png'}
                         />
                       </View>
                     </View>
@@ -1204,6 +1205,8 @@ export default function App(): React.JSX.Element {
                       >
                         Continue
                       </Text>
+                      <Button title="Go to Chat Screen"
+        onPress={() => navigation.navigate('CreateTrip2')}/>
                     </View>
                   </View>
                 </View>
@@ -1268,7 +1271,7 @@ export default function App(): React.JSX.Element {
                             left: '-16.48%',
                             zIndex: 81,
                           }}
-                          source={require('./assets/images/597b57db-e3a9-47c6-9a35-83c834feaecf.png')}
+                          source={'./assets/CreateTrip1/images/597b57db-e3a9-47c6-9a35-83c834feaecf.png'}
                         />
                       </View>
                       <View
@@ -1304,7 +1307,7 @@ export default function App(): React.JSX.Element {
                               marginBottom: 0,
                               marginLeft: 0,
                             }}
-                            source={require('./assets/images/a9581fc0-c0d1-4e5e-a726-5acb7260071b.png')}
+                            source={'./assets/CreateTrip1/images/a9581fc0-c0d1-4e5e-a726-5acb7260071b.png'}
                           />
                           <ImageBackground
                             style={{
@@ -1317,7 +1320,7 @@ export default function App(): React.JSX.Element {
                               marginBottom: 0,
                               marginLeft: 20.961,
                             }}
-                            source={require('./assets/images/8b3c83dc-2e81-4545-818b-d384a5d829da.png')}
+                            source={'./assets/CreateTrip1/images/8b3c83dc-2e81-4545-818b-d384a5d829da.png'}
                           />
                         </View>
                       </View>
@@ -1345,7 +1348,7 @@ export default function App(): React.JSX.Element {
                           position: 'relative',
                           zIndex: 77,
                         }}
-                        source={require('./assets/images/127a796f-fb93-4909-8ad7-92216f8839e2.png')}
+                        source={'./assets/CreateTrip1/images/127a796f-fb93-4909-8ad7-92216f8839e2.png'}
                         resizeMode='cover'
                       />
                       <ImageBackground
@@ -1356,7 +1359,7 @@ export default function App(): React.JSX.Element {
                           position: 'relative',
                           zIndex: 78,
                         }}
-                        source={require('./assets/images/ff541a50-3f9b-4d6e-af8c-78b37e9f9905.png')}
+                        source={'./assets/CreateTrip1/images/ff541a50-3f9b-4d6e-af8c-78b37e9f9905.png'}
                         resizeMode='cover'
                       />
                     </View>
@@ -1383,7 +1386,7 @@ export default function App(): React.JSX.Element {
                           position: 'relative',
                           zIndex: 87,
                         }}
-                        source={require('./assets/images/1db3dfb0-4384-49c3-a683-6b27b7f4e4ec.png')}
+                        source={'./assets/CreateTrip1/images/1db3dfb0-4384-49c3-a683-6b27b7f4e4ec.png'}
                       />
                       <ImageBackground
                         style={{
@@ -1393,7 +1396,7 @@ export default function App(): React.JSX.Element {
                           position: 'relative',
                           zIndex: 88,
                         }}
-                        source={require('./assets/images/8c85f08c-8da9-4572-858a-3e59822bee07.png')}
+                        source={'./assets/CreateTrip1/images/8c85f08c-8da9-4572-858a-3e59822bee07.png'}
                         resizeMode='cover'
                       />
                     </View>

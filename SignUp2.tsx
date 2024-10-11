@@ -15,7 +15,7 @@ import {
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
-export default function App(): React.JSX.Element {
+export default function SignUp2(): React.JSX.Element {
   return (
     <SafeAreaView>
       <ScrollView

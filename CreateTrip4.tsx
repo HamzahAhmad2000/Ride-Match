@@ -15,7 +15,7 @@ import {
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
-export default function App(): React.JSX.Element {
+export default function CreateTrip4(): React.JSX.Element {
   return (
     <SafeAreaView>
       <ScrollView
@@ -43,7 +43,7 @@ export default function App(): React.JSX.Element {
               top: 0,
               left: 0,
             }}
-            source={require('./assets/images/fdbd408a2340926a8ab64d0badc046dd4d00c9d0.png')}
+            source={'./assets/CreateTrip4/images/fdbd408a2340926a8ab64d0badc046dd4d00c9d0.png'}
             resizeMode='cover'
           />
           <View
@@ -140,7 +140,7 @@ export default function App(): React.JSX.Element {
                         marginBottom: 0,
                         marginLeft: 2.75,
                       }}
-                      source={require('./assets/images/f63116fb-9af6-4e65-9a04-ef0baa3fd58a.png')}
+                      source={'./assets/CreateTrip4/images/f63116fb-9af6-4e65-9a04-ef0baa3fd58a.png'}
                     />
                   </View>
                 </View>
@@ -372,7 +372,7 @@ export default function App(): React.JSX.Element {
                         position: 'relative',
                         zIndex: 25,
                       }}
-                      source={require('./assets/images/f46cf4cb-09e4-43e7-86af-cf36d000d44e.png')}
+                      source={'./assets/CreateTrip4/images/f46cf4cb-09e4-43e7-86af-cf36d000d44e.png'}
                       resizeMode='cover'
                     />
                     <View
@@ -422,7 +422,7 @@ export default function App(): React.JSX.Element {
                               marginBottom: 0,
                               marginLeft: 3.96,
                             }}
-                            source={require('./assets/images/29dfe596-49cb-44fd-a0cd-2767bc5c3d8d.png')}
+                            source={'./assets/CreateTrip4/images/29dfe596-49cb-44fd-a0cd-2767bc5c3d8d.png'}
                           />
                         </View>
                         <Text
@@ -465,7 +465,7 @@ export default function App(): React.JSX.Element {
                             position: 'relative',
                             zIndex: 32,
                           }}
-                          source={require('./assets/images/a777c6ad-4653-482f-9762-21d1869255f4.png')}
+                          source={'./assets/CreateTrip4/images/a777c6ad-4653-482f-9762-21d1869255f4.png'}
                           resizeMode='cover'
                         />
                         <Text
@@ -521,7 +521,7 @@ export default function App(): React.JSX.Element {
                               marginBottom: 0,
                               marginLeft: 0.73,
                             }}
-                            source={require('./assets/images/950c48e1-2fc0-4887-8b56-7decdf6056b6.png')}
+                            source={'./assets/CreateTrip4/images/950c48e1-2fc0-4887-8b56-7decdf6056b6.png'}
                           />
                         </View>
                         <Text
@@ -552,7 +552,7 @@ export default function App(): React.JSX.Element {
                         position: 'relative',
                         zIndex: 38,
                       }}
-                      source={require('./assets/images/7da22d61-d261-4ae1-8ab3-e5ce43511b92.png')}
+                      source={'./assets/CreateTrip4/images/7da22d61-d261-4ae1-8ab3-e5ce43511b92.png'}
                       resizeMode='cover'
                     />
                   </View>
@@ -601,7 +601,7 @@ export default function App(): React.JSX.Element {
                             position: 'relative',
                             zIndex: 42,
                           }}
-                          source={require('./assets/images/2fa65df7-348e-4770-abdb-68e618f0c074.png')}
+                          source={'./assets/CreateTrip4/images/2fa65df7-348e-4770-abdb-68e618f0c074.png'}
                           resizeMode='cover'
                         />
                         <View
@@ -701,7 +701,7 @@ export default function App(): React.JSX.Element {
                                   marginBottom: 0,
                                   marginLeft: 2,
                                 }}
-                                source={require('./assets/images/14ce3ce0-425f-40a9-8fe4-2d970abb7596.png')}
+                                source={'./assets/CreateTrip4/images/14ce3ce0-425f-40a9-8fe4-2d970abb7596.png'}
                               />
                             </View>
                           </View>
@@ -790,7 +790,7 @@ export default function App(): React.JSX.Element {
                                   marginBottom: 0,
                                   marginLeft: 2.003,
                                 }}
-                                source={require('./assets/images/5834dbf6-dc02-4d6b-a81c-1ba4b4415dba.png')}
+                                source={'./assets/CreateTrip4/images/5834dbf6-dc02-4d6b-a81c-1ba4b4415dba.png'}
                               />
                             </View>
                           </View>
@@ -816,7 +816,7 @@ export default function App(): React.JSX.Element {
                             position: 'relative',
                             zIndex: 57,
                           }}
-                          source={require('./assets/images/5f87d2d6-0b13-4e43-ab64-f7ed42e640fd.png')}
+                          source={'./assets/CreateTrip4/images/5f87d2d6-0b13-4e43-ab64-f7ed42e640fd.png'}
                           resizeMode='cover'
                         />
                         <View
@@ -879,7 +879,7 @@ export default function App(): React.JSX.Element {
                                     marginBottom: 0,
                                     marginLeft: 1.084,
                                   }}
-                                  source={require('./assets/images/64974fd8-cc1f-4194-a42a-5fbecb4f2813.png')}
+                                  source={'./assets/CreateTrip4/images/64974fd8-cc1f-4194-a42a-5fbecb4f2813.png'}
                                 />
                               </View>
                               <ImageBackground
@@ -891,7 +891,7 @@ export default function App(): React.JSX.Element {
                                   overflow: 'hidden',
                                   zIndex: 63,
                                 }}
-                                source={require('./assets/images/f2718de7-de0c-45b5-a398-94d79f5931ce.png')}
+                                source={'./assets/CreateTrip4/images/f2718de7-de0c-45b5-a398-94d79f5931ce.png'}
                                 resizeMode='cover'
                               />
                             </View>
@@ -980,7 +980,7 @@ export default function App(): React.JSX.Element {
                             position: 'relative',
                             zIndex: 68,
                           }}
-                          source={require('./assets/images/dcd786c9-9663-4b80-b4c1-63f0cffc9a51.png')}
+                          source={'./assets/CreateTrip4/images/dcd786c9-9663-4b80-b4c1-63f0cffc9a51.png'}
                           resizeMode='cover'
                         />
                       </View>
@@ -1044,7 +1044,7 @@ export default function App(): React.JSX.Element {
                                 marginBottom: 0,
                                 marginLeft: 1.516,
                               }}
-                              source={require('./assets/images/f8a62e21-2d92-4628-a048-039dcd551b01.png')}
+                              source={'./assets/CreateTrip4/images/f8a62e21-2d92-4628-a048-039dcd551b01.png'}
                             />
                           </View>
                           <Text
@@ -1153,7 +1153,7 @@ export default function App(): React.JSX.Element {
                                   marginBottom: 0,
                                   marginLeft: 6.672,
                                 }}
-                                source={require('./assets/images/15584821-df27-4e74-a4cc-1326aaedb551.png')}
+                                source={'./assets/CreateTrip4/images/15584821-df27-4e74-a4cc-1326aaedb551.png'}
                               />
                             </View>
                           </View>
@@ -1262,7 +1262,7 @@ export default function App(): React.JSX.Element {
                     left: '-16.48%',
                     zIndex: 91,
                   }}
-                  source={require('./assets/images/080ad8f3-90a4-4eba-aba3-1f2e255225ab.png')}
+                  source={'./assets/CreateTrip4/images/080ad8f3-90a4-4eba-aba3-1f2e255225ab.png'}
                 />
               </View>
               <View
@@ -1298,7 +1298,7 @@ export default function App(): React.JSX.Element {
                       marginBottom: 0,
                       marginLeft: 0,
                     }}
-                    source={require('./assets/images/1869e344-1844-4bcc-9583-d55861f21188.png')}
+                    source={'./assets/CreateTrip4/images/1869e344-1844-4bcc-9583-d55861f21188.png'}
                   />
                   <ImageBackground
                     style={{
@@ -1311,7 +1311,7 @@ export default function App(): React.JSX.Element {
                       marginBottom: 0,
                       marginLeft: 20.961,
                     }}
-                    source={require('./assets/images/9e10d85d-283f-4fea-b8ea-4c3f8ff352ab.png')}
+                    source={'./assets/CreateTrip4/images/9e10d85d-283f-4fea-b8ea-4c3f8ff352ab.png'}
                   />
                 </View>
               </View>
@@ -1350,7 +1350,7 @@ export default function App(): React.JSX.Element {
                     marginBottom: 0,
                     marginLeft: 0,
                   }}
-                  source={require('./assets/images/682db5a2-013c-4225-a1c4-546b6102d2f3.png')}
+                  source={'./assets/CreateTrip4/images/682db5a2-013c-4225-a1c4-546b6102d2f3.png'}
                 />
                 <ImageBackground
                   style={{
@@ -1363,7 +1363,7 @@ export default function App(): React.JSX.Element {
                     marginBottom: 0,
                     marginLeft: 23.945,
                   }}
-                  source={require('./assets/images/4e205ec2-03d9-4649-a059-83a8e4cbff0b.png')}
+                  source={'./assets/CreateTrip4/images/4e205ec2-03d9-4649-a059-83a8e4cbff0b.png'}
                 />
               </View>
             </View>
@@ -1405,7 +1405,7 @@ export default function App(): React.JSX.Element {
                     position: 'relative',
                     zIndex: 87,
                   }}
-                  source={require('./assets/images/150e3017-3079-416e-9d21-9eb9fe09df6d.png')}
+                  source={'./assets/CreateTrip4/images/150e3017-3079-416e-9d21-9eb9fe09df6d.png'}
                   resizeMode='cover'
                 />
                 <ImageBackground
@@ -1416,7 +1416,7 @@ export default function App(): React.JSX.Element {
                     position: 'relative',
                     zIndex: 88,
                   }}
-                  source={require('./assets/images/2ed31dde-c319-4a30-a823-c84abcbb14a8.png')}
+                  source={'./assets/CreateTrip4/images/2ed31dde-c319-4a30-a823-c84abcbb14a8.png'}
                   resizeMode='cover'
                 />
               </View>
@@ -1443,7 +1443,7 @@ export default function App(): React.JSX.Element {
                     position: 'relative',
                     zIndex: 97,
                   }}
-                  source={require('./assets/images/b8b42ede-1c7d-4b15-9bce-5d2230e91b9f.png')}
+                  source={'./assets/CreateTrip4/images/b8b42ede-1c7d-4b15-9bce-5d2230e91b9f.png'}
                 />
                 <ImageBackground
                   style={{
@@ -1453,7 +1453,7 @@ export default function App(): React.JSX.Element {
                     position: 'relative',
                     zIndex: 98,
                   }}
-                  source={require('./assets/images/57f00d11-57a5-4066-85db-e289073d3df7.png')}
+                  source={'./assets/CreateTrip4/images/57f00d11-57a5-4066-85db-e289073d3df7.png'}
                   resizeMode='cover'
                 />
               </View>
